@@ -5,3 +5,4 @@ $form = $oPage->addItem( new \Ease\TWB\Form('ExampleForm') );
 $form->addItem(new \Ease\Html\InputTextTag('Name'));
 $form->addItem(new \Ease\TWB\SubmitButton('OK', 'success') );
 $oPage->draw();
+phpinfo();
