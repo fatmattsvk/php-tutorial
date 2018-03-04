@@ -1,0 +1,6 @@
+ease-framework (1.4.2-1) UNRELEASED; urgency=low
+
+  * release test
+  * v1.4.2 Release  logging classes fix
+
+ -- Vítězslav Dvořák <info@vitexsoftware.cz>  Thu, 30 Nov 2017 16:45:07 +0100

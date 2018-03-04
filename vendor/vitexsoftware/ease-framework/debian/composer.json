@@ -1,0 +1,36 @@
+{
+    "name": "ease-framework",
+    "description": "An PHP Framework for Ease of writing Applications (debianized)",
+    "version": "1.4.2",
+    "authors": [
+        {
+            "name": "Vítězslav Dvořák",
+            "email": "info@vitexsoftware.cz",
+            "homepage": "http://v.s.cz/"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Mail": "/usr/share/php/Mail/"
+        },
+        "psr-4": {
+            "Ease\\": ".",
+            "Ease\\Html\\": "Html",
+            "Ease\\Logger\\": "Logger",
+            "Ease\\JQuery\\": "JQuery",
+            "Ease\\SQL\\": "SQL",
+            "Ease\\TWB\\": "TWB",
+            "Ease\\TWB4\\": "TWB4"
+        }
+
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6.0",
+        "ext-curl": "*",
+        "ext-pdo": "*"
+    },
+    "type": "library",
+    "homepage": "http://v.s.cz/ease.php",
+    "license": "GPL-2.0+"
+}

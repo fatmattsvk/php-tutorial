@@ -1,0 +1,6 @@
+{
+    "localhost": {
+        "url": "http://localhost",
+        "folder": "php/tutorial"
+    }
+}
